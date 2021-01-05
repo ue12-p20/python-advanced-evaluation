@@ -1,0 +1,8 @@
+# setuptools, for github actions
+setuptools==51.*
+# in case students want to use ndarray
+numpy==1.*
+# tests run with pytest
+pytest==6.*
+# tests need this plugin
+pytest-timeout==1.*

@@ -1,0 +1,5 @@
+2 1 3
+4 8 5
+7 6 -
+---
+{"reachable": false, "iterations": 0, "duration": 6.9141387939453125e-06, "priority": "manhattan", "nb_moves": 0}

@@ -1,0 +1,114 @@
+{
+  "tests": [
+    {
+      "name": "setup",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pip3 install -e .",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "unreachable_0",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_unreachable_0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "unreachable_1",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_unreachable_1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "regular_09",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_regular_09",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "regular_15",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_regular_15",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "regular_21",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_regular_21",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "regular_27",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_regular_27",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "speed_30",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_speed_30",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "speed_25",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_speed_25",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "speed_20",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_speed_20",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "speed_15",
+      "setup": "",
+      "run": "pytest puzzle8/tests/test_all.py::test_speed_15",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 from setuptools import setup
 
 setup(
-    packages=['puzzle'],
-    name='puzzle',
+    packages=['puzzle8'],
+    name='puzzle8',
 )

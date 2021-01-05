@@ -1,0 +1,5 @@
+.vscode
+samples/u*.chain
+samples/r*.chain
+__pycache__
+puzzle8.egg-info/
