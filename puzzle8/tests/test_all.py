@@ -134,7 +134,7 @@ def run_and_check_filename(filename, *, reachable, max_moves):
     # invoking your program
     subprocess.run(
         [
-            "python3",
+            "python",
             "puzzle8/cli.py",
             input_filename,
             chain_filename
