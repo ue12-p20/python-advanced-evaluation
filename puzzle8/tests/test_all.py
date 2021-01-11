@@ -131,7 +131,6 @@ def check_chain(input_filename, chain_filename, reachable, max_moves):
 def run_and_check_filename(filename, *, reachable, max_moves):
     input_filename = f"samples/{filename}.txt"
     chain_filename = f"samples/{filename}.chain"
-    command = f"python3 puzzle8/cli.py {input_filename} {chain_filename}"
     # invoking your program
     subprocess.run(
         [
